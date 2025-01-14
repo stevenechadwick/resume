@@ -23,7 +23,7 @@ jobs:
 
     - name: Build Resume
       run: |
-        npx resumed export --theme jsonresume-theme-even --format html 
+        npx resumed export --theme jsonresume-theme-even --format html -o index.html 
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
