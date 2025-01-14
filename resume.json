@@ -1,0 +1,87 @@
+{
+  "basics": {
+    "name": "Steven Chadwick",
+    "label": "Software Developer",
+    "email": "steven@stevenechadwick.com",
+    "phone": "613-581-4544",
+    "location": {
+      "city": "Ottawa",
+      "region": "Ontario",
+      "countryCode": "CA"
+    }
+  },
+  "education": [
+    {
+      "institution": "Carleton University",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "endDate": "2022-12"
+    },
+    {
+      "institution": "University of Toronto",
+      "area": "Psychology",
+      "studyType": "Bachelor of Science, Honours",
+      "endDate": "2013-08"
+    }
+  ],
+  "work": [
+    {
+      "name": "Aurora Solar",
+      "location": "San Francisco, California (Remote)",
+      "position": "Full Stack Software Developer",
+      "startDate": "2023-02",
+      "highlights":[
+        "Migrated the internal admin application from CoffeeScript to React, streamlined APIs to eliminate unnecessary data, and incorporated the updated component library. This resulted in a tenfold improvement in internal process speed, enhanced code maintainability, and ensured visual consistency across internal and external applications.",
+        "Developed a connection between the Ruby on Rails backend and the Snowflake data lake to display client contract information within the application. This provided customers with real-time contract balance updates, significantly reducing time spent by both customers and account executives.",
+        "Designed and delivered a NextJS-based self-serve signup service, collaborating with marketing, revenue operations, and accounting to address process inefficiencies and develop streamlined workflows. Integrated with key systems including Salesforce, Hubspot, Zuora, Recurly, Adyen, Segment, and the main SaaS application. The solution modernized the signup experience, enhanced data consistency, simplified cross-system workflows, enabled a credit-based billing model for SMBs, and resulted in acquiring over 400 new customers without sales team involvement.",
+        "Expanded self-service capabilities for SMB customers by introducing billing pages within the main application, featuring purchase history, payment management, and current credit balance. This eliminated the need for customer support intervention for routine purchase inquiries.",
+        "Implemented a dunning process for self-serve customers, introducing automated account deactivation/reactivation, payment correction banners, and admin redirects. This system prevented overdue accounts from maintaining app access, reducing potential revenue loss from failed charges."
+      ]
+    },
+    {
+      "name": "Tread Inc.",
+      "location": "Toronto, Ontario (Remote)",
+      "position": "Software Developer Co-op",
+      "startDate": "2022-05",
+      "endDate": "2022-08",
+      "highlights": [
+        "Implemented real-time updates of job data to dispatcher application front-end",
+        "Handled unification of incoming subscription data with existing query data in Apollo cache",
+        "Ensured Apollo cache model had necessary cache redirects to read from existing cache objects with cleanest code possible",
+        "Updated front-end components whose contexts disconnected their prop data from cached queries, so that they would update on relevant incoming subscription data",
+        "Updated existing GraphQL schema and resolvers to surface updater information for front-end subscription-related notifications"
+      ]
+    },
+    {
+      "name": "Tread Inc.",
+      "location": "Toronto, Ontario (Remote)",
+      "position": "Software Developer Co-op",
+      "startDate": "2021-05",
+      "endDate": "2021-12",
+      "highlights": [
+        "Added functionality to back-end using Google geocoding API to provide default longitude/latitude values for front-end map components based on company address",
+        "Created React modal and form components for feature allowing users to create and apply custom tags to their users",
+        "Implemented new backend mutations and updated components as part of feature allowing admins to share view access to projects with external users",
+        "Provided an implementation overview for GraphQL subscription updates including websocket package options and distributed messaging solutions",
+        "Audited front-end caching practices and found fixes for bugs resolved via cache busting",
+        "Implemented real-time updates of project data to dispatcher application front-end"
+      ]
+    },
+    {
+      "name": "Reliability Screening Solutions Inc.",
+      "location": "Ottawa, Ontario",
+      "position": "Systems Developer",
+      "startDate": "2020-05",
+      "endDate": "2020-12",
+      "highlights": [
+        "Designed and developed a customer-facing tool for entering basic information and supplementary data required for background checks",
+        "Analyzed current business workflows to identify pain points to address",
+        "Created a RESTful API using Falcon (Python framework) and a MySQL database to connect the front-end with legacy systems",
+        "Built a client-facing web application with Flask (Python framework)",
+        "Integrated HelloSign API for embedded e-signatures",
+        "Integrated Equifax e-ID verification service for credit-based identity verification",
+        "Deployed the front-end and back-end solutions to Google App Engine"
+      ]
+    }
+  ]
+}
