@@ -8,7 +8,14 @@
       "city": "Ottawa",
       "region": "Ontario",
       "countryCode": "CA"
-    }
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "steven-chadwick",
+        "url": "https://www.linkedin.com/in/steven-chadwick/"
+      }
+    ]
   },
   "education": [
     {
